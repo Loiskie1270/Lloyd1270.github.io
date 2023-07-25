@@ -174,7 +174,7 @@ section::-webkit-scrollbar{
 }
 .aside .logo img{
     position: absolute;
-    width: 235%;
+    width: 270%;
     left: -25px;
 }
 .aside .logo a{
@@ -193,8 +193,8 @@ section::-webkit-scrollbar{
 .aside .logo a::before{
     content: '';
     position: absolute;
-    width: 100px;
-    height: 110px;
+    width: 110px;
+    height: 120px;
     /*border-bottom: 5px solid var(--skin-color);
     border-left: 5px solid var(--skin-color);*/
     bottom: -30px;
@@ -309,8 +309,8 @@ h3.hello{
     margin: 15px 0;
 }
 h3.hello span{
-    font-family: 'Love Ya Like A Sister', cursive;
-    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
     font-weight: 800;
     color: var(--skin-color);
 }
@@ -320,7 +320,7 @@ h3.my-profession{
     margin: 15px 0;
 }
 .typing{
-    font-size: 30px;
+    font-size: 35px;
     font-weight: bold;
     color: var(--skin-color);
 }
@@ -611,10 +611,10 @@ h3.my-profession{
     margin-bottom: 40px;
 }
 .portfolio .portfolio-heading h2{
-    font-family: 'Love Ya Like A Sister', cursive;
+    font-family: 'Poppins', sans-serif;
     color: var(--skin-color);
     font-weight: 700;
-    font-size: 40px;
+    font-size: 20px;
 }
 
 .portfolio .portfolio-item{
@@ -639,8 +639,8 @@ h3.my-profession{
     color: var(--skin-color);
     text-align: center;
     margin-top: -85px;
-    margin-bottom: 10px;
-    font-family: 'Special Elite', cursive;
+    margin-bottom: 5px;
+    font-family: 'Poppins', sans-serif;
     font-size: 25px;
 }
 .contact-sub-title{
@@ -788,8 +788,11 @@ h3.my-profession{
     }
     .about .about-content .personal-info .info-item p span{
         word-wrap: break-word; 
-    }     
-}
+    } 
+}   
+    
+    
+
 @media (max-width:600px){
     
     .contact .contact-form .col-6,
@@ -805,7 +808,7 @@ h3.my-profession{
         transition: all 0.3s ease;
     }
     .aside .nav-toggler.open{
-        left: 40px;
+        left: 35px;
         top: 5px;
         transition: all 0.3s ease;
    }
@@ -818,7 +821,15 @@ h3.my-profession{
     }   
     .about .about-content .personal-info .info-item p span{
         word-wrap: break-word; 
-    }  
+    } 
+    .contact .contact-info-item{
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+    .contact-title {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    } 
 }
 @media (max-width:500px){
     
@@ -835,7 +846,7 @@ h3.my-profession{
     }
     
     .aside .nav-toggler.open{
-        left: 40px;
+        left: 30px;
         top: 5px;
         transition: all 0.3s ease;
    }
@@ -849,8 +860,16 @@ h3.my-profession{
     .about .about-content .personal-info .info-item p span{
         word-wrap: break-word; 
     }    
+    .contact .contact-info-item{
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+    .contact-title {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
 }
-@media (max-width:400px){
+@media (max-width:420px){
     
     .contact .contact-form .col-6,
     .contact .contact-info-item,
@@ -864,7 +883,7 @@ h3.my-profession{
         max-width: 100%;
     }
     .aside .nav-toggler.open{
-        left: 20px;
+        left: 25px;
         top: 0;
         transition: all 0.3s ease;
    }
@@ -881,7 +900,98 @@ h3.my-profession{
     .about .about-content .personal-info .info-item p span{
         word-wrap: break-word; 
     }  
+    .contact .contact-info-item{
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+    .contact-title {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
    
+}
+@media (max-width:400px){
+    
+    .contact .contact-form .col-6,
+    .contact .contact-info-item,
+    .portfolio .portfolio-item,
+    .service .service-item,
+    .about .about-content .experience,
+    .about .about-content .education,
+    .about .about-content .skills,
+    .about .about-content .personal-info{
+        flex: 100%;
+        max-width: 100%;
+    }
+    .aside .nav-toggler.open{
+        left: 25px;
+        top: 0;
+        transition: all 0.3s ease;
+   }
+   
+    .aside.open{
+        left: 0;
+        top: 0;
+        width: 400px;
+        transition: all 0.3s ease;
+    }
+    .home-info p{
+        word-spacing: normal;
+    }   
+    .about .about-content .personal-info .info-item p span{
+        word-wrap: break-word; 
+    } 
+    .contact .contact-info-item{
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+    .contact-title {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    } 
+   
+}
+@media (max-width:320px){
+    
+    .contact .contact-form .col-6,
+    .contact .contact-info-item,
+    .portfolio .portfolio-item,
+    .service .service-item,
+    .about .about-content .experience,
+    .about .about-content .education,
+    .about .about-content .skills,
+    .about .about-content .personal-info{
+        flex: 100%;
+        max-width: 100%;
+    }
+    .aside .nav-toggler.open{
+        left: 25px;
+        top: 0;
+        transition: all 0.3s ease;
+   }
+   
+    .aside.open{
+        left: 0;
+        top: 0;
+        width: 300px;
+        transition: all 0.3s ease;
+    }
+    .home-info p{
+        word-spacing: normal;
+    }   
+    .about .about-content .personal-info .info-item p span{
+        word-wrap: break-word; 
+    }  
+    .contact .contact-info-item .icon {
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+   
+    .contact-title h3{
+        margin-top: -85px;
+    }
+    
+    
 }
 
 
