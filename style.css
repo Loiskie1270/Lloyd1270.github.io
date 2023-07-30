@@ -720,7 +720,7 @@ h3.my-profession{
 }  
 
 /**MEDIA QUERIES START HERE**/
-@media screen and (min-width:800px) and (max-width: 1280px) and (orientation: landscape) { 
+@media screen and (max-width:1280px) and (max-height: 800px) and (orientation: landscape) { 
     .section .container{
         padding-top: 70px;
     }
@@ -752,7 +752,7 @@ h3.my-profession{
         word-spacing: normal;
     }   
 }
-@media screen and (min-width:720px) and (max-height: 1600px) and (orientation: landscape) { 
+@media screen and (max-width: 1600px) and  (max-height:720px) and (orientation: landscape) { 
     .section .container{
         padding-top: 70px;
     }
