@@ -944,6 +944,52 @@ h3.my-profession{
         margin: auto;
     }
 }
+@media (max-width:420px) and (resolution: landscape){
+    
+    .contact .contact-form .col-6,
+    .contact .contact-info-item,
+    .portfolio .portfolio-item,
+    .service .service-item,
+    .about .about-content .experience,
+    .about .about-content .education,
+    .about .about-content .skills,
+    .about .about-content .personal-info{
+        flex: 100%;
+        max-width: 100%;
+    }
+    .aside .nav-toggler.open{
+        left: 25px;
+        top: 0;
+        transition: all 0.3s ease;
+   }
+   
+    .aside.open{
+        left: 0;
+        top: 0;
+        width: 400px;
+        transition: all 0.3s ease;
+    }
+    .home-info p{
+        word-spacing: normal;
+    }   
+    .about .about-content .personal-info .info-item p span{
+        word-wrap: break-word; 
+    }  
+    .contact .contact-info-item{
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+    .contact-title {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .aside .logo img{
+        width: 15%;
+        display: block;
+        margin: auto;
+    }
+   
+}
 @media (max-width:420px){
     
     .contact .contact-form .col-6,
@@ -1034,7 +1080,52 @@ h3.my-profession{
     } 
    
 }
-
+@media (max-width:320px) and (resolution: landscape){
+    
+    .contact .contact-form .col-6,
+    .contact .contact-info-item,
+    .portfolio .portfolio-item,
+    .service .service-item,
+    .about .about-content .experience,
+    .about .about-content .education,
+    .about .about-content .skills,
+    .about .about-content .personal-info{
+        flex: 100%;
+        max-width: 100%;
+    }
+    .aside .nav-toggler.open{
+        left: 25px;
+        top: 0;
+        transition: all 0.3s ease;
+   }
+   
+    .aside.open{
+        left: 0;
+        top: 0;
+        width: 400px;
+        transition: all 0.3s ease;
+    }
+    .home-info p{
+        word-spacing: normal;
+    }   
+    .about .about-content .personal-info .info-item p span{
+        word-wrap: break-word; 
+    }  
+    .contact .contact-info-item{
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+    .contact-title {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .aside .logo img{
+        width: 15%;
+        display: block;
+        margin: auto;
+    }
+   
+}
 @media (max-width:320px){
     
     .contact .contact-form .col-6,
