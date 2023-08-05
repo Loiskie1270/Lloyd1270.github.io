@@ -865,13 +865,14 @@ h3.my-profession{
         margin-bottom: 5px;
     }
     .aside .nav-toggler.open{
-        left: 35px;
+        visibility: hidden;
+        /*left: 35px;
         top: 5px;
-        transition: all 0.3s ease;
+        transition: all 0.3s ease;*/
    }
     .aside.open{
         width: 767px;
-        transition: all 0.3s ease;
+        transition: all 0.2s ease;
     }
     .home-info p{
         word-spacing: normal;
@@ -902,7 +903,7 @@ h3.my-profession{
     .about .about-content .personal-info{
         flex: 100%;
         max-width: 800px;
-        transition: all 0.3s ease;
+        transition: all 0.2s ease;
     }
     .contact section, .section-title h2{
         margin-bottom: -250px;
@@ -913,17 +914,18 @@ h3.my-profession{
         margin-left: auto;
         flex: 100%;
         max-width: 800px;
-        transition: all 0.3s ease;
+        transition: all 0.2s ease;
         margin-bottom: 5px;
     }
     .aside .nav-toggler.open{
-        left: 35px;
+        visibility: hidden;
+        /*left: 35px;
         top: 5px;
-        transition: all 0.3s ease;
+        transition: all 0.3s ease;*/
    }
     .aside.open{
         width: 100%;
-        transition: all 0.3s ease;
+        transition: all 0.2s ease;
     }
     .home-info p{
         word-spacing: normal;
@@ -953,7 +955,7 @@ h3.my-profession{
     .about .about-content .personal-info{
         flex: 100%;
         max-width: 700px;
-        transition: all 0.3s ease;
+        transition: all 0.2s ease;
     }
     .contact section, .section-title h2{
         margin-bottom: -250px;
@@ -964,17 +966,18 @@ h3.my-profession{
         margin-left: auto;
         flex: 100%;
         max-width: 700px;
-        transition: all 0.3s ease;
+        transition: all 0.2s ease;
         margin-bottom: 5px;
     }
     .aside .nav-toggler.open{
-        left: 35px;
+        visibility: hidden;
+        /*left: 35px;
         top: 5px;
-        transition: all 0.3s ease;
+        transition: all 0.3s ease;*/
    }
     .aside.open{
         width: 100%;
-        transition: all 0.3s ease;
+        transition: all 0.2s ease;
     }
     .home-info p{
         word-spacing: normal;
@@ -1010,12 +1013,13 @@ h3.my-profession{
     }
     
     .aside .nav-toggler.open{
-        left: 30px;
+        visibility: hidden;
+        /*left: 30px;
         top: 5px;
-        transition: all 0.3s ease;
+        transition: all 0.3s ease;*/
    }
     .aside.open{
-        transition: all 0.3s ease;
+        transition: all 0.2s ease;
         width: 100%;
     }
     .home-info p{
@@ -1058,16 +1062,17 @@ h3.my-profession{
         margin-bottom: -250px;
     }
     .aside .nav-toggler.open{
-        left: 25px;
+        visibility: hidden;
+        /*left: 25px;
         top: 0;
-        transition: all 0.3s ease;
+        transition: all 0.3s ease;*/
    }
    
     .aside.open{
         left: 0;
         top: 0;
         width: 100%;
-        transition: all 0.3s ease;
+        transition: all 0.2s ease;
     }
     .home-info p{
         word-spacing: normal;
@@ -1110,16 +1115,17 @@ h3.my-profession{
         margin-bottom: -250px;
     }
     .aside .nav-toggler.open{
-        left: 25px;
+        visibility: hidden;
+        /*left: 25px;
         top: 0;
-        transition: all 0.3s ease;
+        transition: all 0.3s ease;*/
    }
    
     .aside.open{
         left: 0;
         top: 0;
         width: 100%;
-        transition: all 0.3s ease;
+        transition: all 0.2s ease;
     }
     .home-info p{
         word-spacing: normal;
