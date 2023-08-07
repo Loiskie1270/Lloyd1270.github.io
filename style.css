@@ -32,6 +32,17 @@ body{
     box-sizing: border-box;
     
 }
+
+.herobgcolor {
+    background: linear-gradient(to right, #5B22E8, #FF2362);
+    -webkit-animation: nebulahero 20s infinite linear;
+  }
+  
+  @-webkit-keyframes nebulahero {
+      0% {-webkit-filter: hue-rotate(0deg);}
+      100% {-webkit-filter: hue-rotate(-360deg);}
+  }
+  
 ::before,::after{
     box-sizing: border-box;
 }
